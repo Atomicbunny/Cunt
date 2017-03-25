@@ -1,0 +1,5 @@
+bot
+    .on(bot.triggers['mention-command'], 'say', ['word'])
+    .do(function(bot, conf, args) {
+        this.reply(args.commandArgs.word);
+    });
