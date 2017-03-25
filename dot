@@ -1,8 +1,8 @@
 var Bot = require('discord-bot');
  
 var bot = new Bot({
-    email: <email>,
-    password: <pass>
+    email: <ultracunt.gmail.com>,
+    password: <password>
 });
  
 bot
