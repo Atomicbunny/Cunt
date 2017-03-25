@@ -6,9 +6,9 @@ var bot = new Bot({
 });
  
 bot
-    .on(bot.triggers.command, 'Say')
+    .on(bot.triggers.command, 'Hello there')
     .do(function(bot, conf, args) {
-        this.reply('Ni**er');
+        this.reply('faggots');
     });
  
 bot.connect();
