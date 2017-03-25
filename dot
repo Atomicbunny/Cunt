@@ -1,5 +1,5 @@
 bot
-    .on(bot.triggers['mention-command'], 'say', ['word'])
+    .on(bot.triggers['mention-command'], 'say', ['fuck off'])
     .do(function(bot, conf, args) {
-        this.reply(args.commandArgs.word);
+        this.reply(Fuck you);
     });
